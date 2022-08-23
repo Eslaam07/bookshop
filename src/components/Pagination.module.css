@@ -1,0 +1,33 @@
+.pagination {
+  border-radius: 5px;
+  margin-right: 0;
+  /* width: fit-content; */
+  margin: auto;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  gap: 10px;
+}
+
+.page-link {
+  width: 37px;
+  height: 36px;
+}
+
+@media (max-width: 767px) {
+  .page-link {
+    width: 28px;
+    height: 40px;
+    border-radius: 0;
+  }
+}

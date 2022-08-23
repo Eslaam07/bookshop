@@ -1,0 +1,44 @@
+
+body {
+  background-color: #f3e7dd;
+  height: 655px;
+  position: relative;
+}
+.container {
+  padding: 20px;
+  border-radius: 1px;
+  background-color: white;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 35px;
+  min-height: 600px;
+}
+/* Mobile */
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    position: static;
+    transform: translate(0,0);
+  }
+}
+/* Small Screens */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium Screens */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large Screens */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}

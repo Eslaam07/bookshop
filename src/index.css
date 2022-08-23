@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Bicyclette";
+  src: url(../public/fonts/Bicyclette-Bold.ttf) format( "truetype" );
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Bicyclette";
+  src: url(../public/fonts/Bicyclette-Light.ttf) format( "truetype" );
+  font-weight:400
+}
+@font-face {
+  font-family: "Bicyclette";
+  src: url(../public/fonts/Bicyclette-Regular.ttf) format( "truetype" );
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Bicyclette", sans-serif;
+  line-height: 1.3;
+  overflow-x: clip;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+

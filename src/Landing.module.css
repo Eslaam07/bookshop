@@ -1,0 +1,28 @@
+.landing {
+  height: 125px;
+  background-color: #f3e7dd;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px 60px;
+  border-radius: 15px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 5px;
+}
+@media (max-width: 767px) {
+  .landing {
+    display: none;
+  }
+}
+.landing h3 {
+  color:#413b89;
+  font-size: 20px;
+}
+.landing p {
+  width: 280px;
+  color: #bab2ad;
+}
+.landing img {
+  width: 185px;
+}
