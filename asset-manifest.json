@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bookshop/static/css/main.f82396dd.css",
+    "main.js": "/bookshop/static/js/main.379b269c.js",
+    "static/media/Bicyclette-Regular.ttf": "/bookshop/static/media/Bicyclette-Regular.c0a05a217791782c92f9.ttf",
+    "static/media/Bicyclette-Bold.ttf": "/bookshop/static/media/Bicyclette-Bold.f32cd962fdbec92ef4ff.ttf",
+    "static/media/Bicyclette-Light.ttf": "/bookshop/static/media/Bicyclette-Light.b67d5d6d1d2d6014b57b.ttf",
+    "index.html": "/bookshop/index.html",
+    "main.f82396dd.css.map": "/bookshop/static/css/main.f82396dd.css.map",
+    "main.379b269c.js.map": "/bookshop/static/js/main.379b269c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f82396dd.css",
+    "static/js/main.379b269c.js"
+  ]
+}
